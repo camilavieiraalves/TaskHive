@@ -1,2 +1,3 @@
 # TaskHive
-aplicativo de Delivery
+Gerenciador de projetos
+
