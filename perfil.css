@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #ffd247;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* --- SIDEBAR --- */
+.sidebar {
+    width: 27%;
+    background: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.user-icon {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background-color: #f9bd25;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px; /* emoji size */
+}
+
+
+.user-icon.big {
+    margin-bottom: 10px;
+}
+
+.usuario {
+    color: #f9bd25;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.menu-btn {
+    width: 75%;
+    background: #f9bd25;
+    color: white;
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    margin: 12px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.logout {
+    margin-top: 35px;
+}
+
+/* --- CONTEÚDO --- */
+.content {
+    width: 73%;
+    background: #fde48c;
+    padding: 0;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 12px 30px;
+    background: #f9bd25;
+}
+
+.top h2 {
+    color: white;
+    font-size: 22px;
+}
+
+.edit-btn {
+    background: #fbe07a;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.form-container {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.user-icon.medium {
+    width: 110px;
+    height: 110px;
+    font-size: 48px;
+}
+
+
+.form-group {
+    width: 470px;
+    margin: 10px auto;
+    text-align: left;
+}
+
+label {
+    color: #b0820b;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 14px;
+    background: white;
+    margin-top: 4px;
+    outline: none;
+}
+
+.save-btn {
+    background: #f9bd25;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 11px 22px;
+    border-radius: 20px;
+    cursor: pointer;
+}
