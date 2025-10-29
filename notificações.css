@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+  background-color: #ffeb7a;
+  font-family: 'Fredoka One', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  transform: scale(1.5); 
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 1px 2px 3px rgba(0,0,0,0.1);
+  margin-top: 10px;
+}
+
+.bee {
+  width: 70px;
+  position: relative;
+  top: 10px;
+  animation: fly 3s infinite ease-in-out;
+}
+
+@keyframes fly {
+  0% { transform: translateX(0) rotate(0deg); }
+  50% { transform: translateX(10px) translateY(-10px) rotate(10deg); }
+  100% { transform: translateX(0) rotate(0deg); }
+}
+
+.card {
+  background-color: #fbbf24;
+  border-radius: 25px;
+  padding: 20px 30px;
+  width: 350px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.notification {
+  background-color: #ffec99;
+  border-radius: 15px;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.text {
+  text-align: left;
+}
+
+.title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #222;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 0.8rem;
+  color: #333;
+  margin: 0;
+}
+
+.dismiss {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dismiss:hover {
+  background-color: #dc2626;
+}
+
+.ignore-all {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.ignore-all:hover {
+  background-color: #dc2626;
+}
+
+.footer {
+  background-color: #fde047;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* espaçamento igual entre os elementos */
+  width: fit-content;
+  padding: 10px 25px;
+  margin: 40px auto 0 auto; /* centraliza o rodapé */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.icon-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: transform 0.2s, color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-btn:hover {
+  transform: scale(1.1);
+  color: #f87171;
+}
+
+.projects-btn {
+  background-color: #facc15;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #000;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-btn:hover {
+  background-color: #eab308;
+  transform: scale(1.05);
+}
