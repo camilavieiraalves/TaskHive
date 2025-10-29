@@ -1,0 +1,78 @@
+/* ======= ESTILO DA PÁGINA DE CADASTRO ======= */
+
+/* Fundo da tela */
+body {
+  background-color: #ffe67c;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Caixinha principal */
+.container {
+  text-align: center;
+  background-color: #ffc63c;
+  padding: 40px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+/* Título */
+h1 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Grupos de campos */
+.form-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* Nome dos campos */
+label {
+  display: block;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Caixinhas de digitação */
+input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+/* Botão */
+button {
+  background-color: #ffde59;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffe67c;
+}
+
+.abelha {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  width: 100px;
+}
