@@ -12,6 +12,9 @@ body {
 .container {
   position: relative;
   text-align: center;
+   position: relative;
+  text-align: center;
+  transform: scale(1.9); 
 }
 
 h1 {
