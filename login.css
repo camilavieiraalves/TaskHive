@@ -1,0 +1,106 @@
+/* === GERAL === */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffe47a; /* amarelo claro */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+/* === CARD DE LOGIN === */
+.login-box {
+  background-color: #fbbf24; /* laranja mel */
+  padding: 25px;
+  border-radius: 15px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  text-align: left;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin: 10px 0 5px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.9em;
+  outline: none;
+}
+
+button {
+  background-color: #ffe47a;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ffd84a;
+}
+
+.signup-text {
+  margin-top: 8px;
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.signup-text a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.abelha {
+  position: absolute;
+  top: 90px;           /* altura ideal pra alinhar com o título */
+  left: calc(50% - 220px); /* deslocamento horizontal — ajustado pro canto esquerdo do card */
+  width: 75px;         /* tamanho proporcional */
+  transform: rotate(-10deg);
+}
+.login-box {
+  position: relative; /* agora o .login-box é o referencial da .abelha */
+  background-color: #fbbf24;
+  padding: 25px;
+  border-radius: 15px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* posição final da abelha (ajuste fino com top/left se precisar) */
+.abelha {
+  position: absolute;
+  top: 15px;    /* negativo para “voar” acima do card */
+  left: 7px;    /* distância a partir da borda esquerda do card */
+  width: 120px;
+  transform: rotate(-240deg) scaleX(-1);
+  pointer-events: none; /* opcional: evita que a imagem atrapalhe cliques */
+}
