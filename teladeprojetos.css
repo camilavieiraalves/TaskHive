@@ -84,10 +84,10 @@ body {
 
 .bee {
   position: absolute;
-  width: 80px;
-  top: 10px;
+  width: 100px;
+  top: -10px;
   left: calc(50% - 160px);
-   transform: scaleX(-1) rotate(10deg);
+   transform: scaleX(-1) rotate(16deg);
 }
 
 
