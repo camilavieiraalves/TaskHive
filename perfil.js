@@ -57,8 +57,6 @@ botoesMenu.forEach(btn => {
 
     if (texto.includes('projetos')) {
       window.location.href = 'projetos.html'; // ajuste conforme o nome do arquivo
-    } else if (texto.includes('notificações')) {
-      window.location.href = 'notificação.html'; // ajuste conforme o nome do arquivo
     } else if (texto.includes('sair')) {
       const confirmar = confirm('Deseja realmente sair?');
       if (confirmar) {
